@@ -15,7 +15,7 @@ diantaranya:
 
 Motivasi utama saya menulis buku ini adalah memperbanyak referensi yang utuh tentang javascript
 yang berbahasa Indonesia.
-Lebih detail tentang motivasi saya menulis buku ini dapat dibaca [disini]('./buku-1-pengenalan/kata_pengantar.md)
+Lebih detail tentang motivasi saya menulis buku ini dapat dibaca [disini](./buku-1-pengenalan/kata_pengantar.md)
 
 ## License
 
