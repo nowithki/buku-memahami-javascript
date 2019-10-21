@@ -388,7 +388,7 @@ double == disebut juga equality dalam javascript atau kesamaan nilai. dalama pen
 ini adalah karena Equality tidak peduli jika `2` (number) dan `"2"` (string) adalah berbeda.
 namun identity peduli, sehingga menghasilkan nilai `false`
 
-**Protip:** Selalu gunakan Identity saat melakaukan pengecekan. karena penggunaan `Equality` seringkali menghasilkan bug.
+**Protip:** Selalu gunakan `Identity` (===) saat melakaukan pengecekan. karena penggunaan `Equality` (==) seringkali menghasilkan bug.
 
 #### Lebih besar dari (>)
 
