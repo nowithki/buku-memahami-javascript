@@ -296,6 +296,41 @@ const nilaiRerataBudiToni =
   2; // bernilai 7.5
 ```
 
+### null
+
+Null adalah nilai kosong dalam javascript. ibaratkan komputer adalah sebuah penyimpan alamat yang baik. nama variabel adalah Alamat dan variabel itu sendiri adalah bangunan. maka memberi nilai null ke sebuah variabel sama dengan memberi alamat kepada tanah kosong tanpa bangunan.
+
+```js
+const alamat1 = null;
+```
+
+ketika kita mencoba mengakses alamat1 maka kita akan mendapat tanah kosong tersebut. kapan tipe data ini berguna ? salah satu contoh nya adalah untuk memberi nilai default (kamu tidak harus sepenuhnya paham tentang kode dibawah)
+
+```js
+let alamatDefault = null;
+let punyaRumah = false;
+const uangSekarang = 100;
+if (uangSekarang > 1000) {
+  alamatDefault = 'Bangunan Baru';
+}
+// kemudian kita bisa menggunakan alamatDefault Tersebut untuk membuat kondisi
+if (alamatDefault != null) {
+  punyaRumah = true;
+}
+```
+
+### undefined
+
+Undefined ini mirip null. bedanya adalah. ibaratkan komputer adalah sebuah penyimpan alamat yang baik. nama variabel adalah Alamat dan variabel itu sendiri adalah bangunan. maka undefined adalah bukaan hanya tanahnya kosong, tapi memang alamat itu sendiri tidak ada di memori komputer. biasanya kita mendapatkan nilai ini ketika kita mencoba mengakses variabel yang belum dideklarasikan. misalkan
+
+```js
+// akan bernilai undefined karena tidak ada pendefinisiian alamat lama.
+let alamatDefault = alamatLama;
+```
+
+mungkin meme ini akan membanttu memecahkan misteri antara perbedaan tipe tipe tersebut:
+![meme1](/images/meme1.png 'Meme Undefined')
+
 ## Operators
 
 Javascript mengenal Operators. apa itu Operators ? Operators adalah simbol seperti dalam matematika semisal `+ (Tambah)` `/ (Pembagi)` `* (Perkalian)`. selain simbol simbol matetmatika yang umum javascript juga mengenal beberapa simbol lainya seperti:
