@@ -511,7 +511,7 @@ x = 7;
 
 ```js
 const y = 5;
-y = 10;
+y = 10 - 7;
 ```
 
 5. Berapakah nilai terakhir variabel x ? _\*_
@@ -555,7 +555,7 @@ true || false;
 50 >= 50;
 100 > 10 && 5 < 8;
 5 < 6 || 987 > 900;
-5 < 8 || 234 > 214;
+5 < 8 || 234 < 214;
 (9 > 4 && 10 > 20) || 5 > 4;
 (23 < 12 && 8 > 4) || 932 < 923;
 ```
@@ -576,7 +576,7 @@ teksku = teksLain + teksku;
 const alamat = undefined == null ? 'Sama' : 'Tak Sama';
 ```
 
-11. [Bonus] ketika file `ini_file.js` dirubah menjadi berikut, apa yang akan tampil ketika file `index.html` dibuka di browser ? _\*\*\*_
+11. [Bonus] ketika file `ini_file.js` dirubah menjadi berikut, apa yang akan tampil ketika file `index.html` dibuka di browser ? _\*\*_
 
 ```javascript
 function Hello() {
