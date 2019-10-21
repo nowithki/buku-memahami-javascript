@@ -335,7 +335,11 @@ mungkin meme ini akan membanttu memecahkan misteri antara perbedaan tipe tipe te
 
 Javascript mengenal Operators. apa itu Operators ? Operators adalah simbol seperti dalam matematika semisal `+ (Tambah)` `/ (Pembagi)` `* (Perkalian)`. selain simbol simbol matetmatika yang umum javascript juga mengenal beberapa simbol lainya seperti:
 
-### Modulo (%)
+### Perhitungan (Arithmetic)
+
+operator operator yang digunakan sebagai operator proses matematis. selain `+ (Tambah)` `- (kurang)` `/ (Pembagi)` `* (Perkalian)` ada beberapa yang lain yaitu
+
+#### Modulo (%)
 
 Modulo berarti sisa bagi. biasanya digunakan untuk mencari tahu apakah Y habis dibagi X. misalkan.
 
@@ -344,12 +348,138 @@ const bilangan1 = 5;
 const bilangan2 = 25;
 const bilangan3 = 8;
 const bilangan4 = 29;
-const modulo1 = bilangan1 % 5; // bernilai 0 karena 5 habis dibagi 5
-const modulo2 = bilangan2 % 5; // bernilai 0 karena 25 habis dibagi 5
-const modulo3 = bilangan3 % 5; // bernilai 3 karena jika 8 dibagi 5 maka akan bernilai 1 3/5. ambil nilai 3 (3 dari 5).
-const modulo4 = bilangan4 % 5; // bernilai 4 karena 29 dibagi 5 maka akan bernilai 5 4/5. ambil nilai 4 (4 dari 5).
+// bernilai 0 karena 5 habis dibagi 5
+const modulo1 = bilangan1 % 5;
+// bernilai 0 karena 25 habis dibagi 5
+const modulo2 = bilangan2 % 5;
+// bernilai 3 karena jika 8 dibagi 5 maka akan bernilai 1 3/5. ambil nilai 3 (3 dari 5).
+const modulo3 = bilangan3 % 5;
+// bernilai 4 karena 29 dibagi 5 maka akan bernilai 5 4/5. ambil nilai 4 (4 dari 5).
+const modulo4 = bilangan4 % 5;
 ```
 
-### Pangkat (`**`)
+#### Pangkat (`**`)
 
 di javascript operasi pangkat menggunakan simbol `**` semisal `5 ** 2` berarti 5 pangkat 2.
+
+### Operator pembanding (Comparison)
+
+Operator ini digunakan untuk membandingkan kedua nilai dan hasil eksekusinya akan bernilai boolean (`true`/`false`).
+
+misalkan
+
+```js
+5 > 3; // true
+4 > 4; // false
+4 >= 4; // true
+2 == '2'; // true
+2 === '2'; // false
+```
+
+#### Equality [Kesamaan Nilai](`==`) dan Identitiy [Kesamaan Tipe dan Nilai](`===`)
+
+double == disebut juga equality dalam javascript atau kesamaan nilai. dalama pengertian equality ini hanya melakukan pengecekan terhadap nilai namun tidak mengecek tipe. misalkan diatas ada baris
+
+```js
+2 == '2'; // true
+2 === '2'; // false
+```
+
+ini adalah karena Equality tidak peduli jika `2` (number) dan `"2"` (string) adalah berbeda.
+namun identity peduli, sehingga menghasilkan nilai `false`
+
+**Protip:** Selalu gunakan Identity saat melakaukan pengecekan. karena penggunaan `Equality` seringkali menghasilkan bug.
+
+#### Lebih besar dari (>)
+
+contoh
+
+```js
+4 > 4; // 4 lebih besar dari 4 : false (salah)
+```
+
+#### Lebih besar sama dengan dari (>=)
+
+contoh
+
+```js
+4 >= 4; // 4 lebih besar sama dengan dari 4 : true (benar)
+```
+
+#### Lebih kecil Dari (<)
+
+contoh
+
+```js
+4 < 5; // 4 lebih kecil dari 5 : benar (true)
+```
+
+#### Lebih kecil sama dengan dari (<=)
+
+contoh
+
+```js
+5 <= 5; // 5 lebih kecil sama dengan dari 5 : benar (true)
+```
+
+### Operator Ternary (kondisi ? nilai_jika_benar : nilai_jika_salah)
+
+Operator Ternary atau kondisional biasanya digunakan ketika nilai didalam suatu variabel memiliki kondisi. misalkan
+
+```js
+const sedangHujan = true;
+const pakaian = sedangHujan ? 'Jas Hujan' : 'Kemeja';
+```
+
+nilai variabel pakaian akan sama dengan `Jas Hujan` ketika variabel sedangHujan bernilai `true` seperti diatas dan akan bernilai `Kemeja` ketika variabel sedangHujan bernilai false seperti dibawah
+
+```js
+const sedangHujan = false;
+const pakaian = sedangHujan ? 'Jas Hujan' : 'Kemeja';
+```
+
+### Operator Logika
+
+sama seperti operator komparasi, operator logika akan menghasilkan nilai boolean.
+
+#### operator AND / Dan (&&) [variabel1 && variabel2]
+
+Bernilai true (benar) ketika **_semua_** variabel pembanding bernilai benar. selain itu bernilai false (salah)
+contoh
+
+```js
+true && true; // true
+true && false; // false
+true && true && true; // true
+true && true && false; // false
+4 > 3 && 5 >= 5 && 6 < 7; // true
+4 > 3 && 5 > 5 && 6 < 7; // false
+```
+
+#### operator OR / Atau (||) [variabel1 || variabel2]
+
+Bernilai true (benar) ketika **_salah satu_** variabel pembanding bernilai true (benar). bernilai false hanya ketika **semua** variabel pembanding bernilai false
+contoh
+
+```js
+true || true; // true
+true || false; // true
+false || false; // false
+true || true || true; // true
+true || false || false; // true
+4 > 3 || 5 >= 5 || 6 < 7; // true
+4 > 3 || 5 > 5 || 6 < 7; // true
+false || false || false; // false
+```
+
+#### Operator Negasi (!)
+
+Membalikan boolean / nilai kebenaran suatu variabel atau nilai.
+contoh
+
+```js
+!true; // false
+!false; // true
+!(4 > 5); // true
+!(6 > 5); // false
+```

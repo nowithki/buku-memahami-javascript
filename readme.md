@@ -2,6 +2,10 @@
 
 Buku ini masih dalam tahap pengerjaan atau _work in progress_.
 
+Buku ini adalah buku javascript yang didesain untuk membahas javascript secara "Lengkap" bukan dalam artian lengkap seperti kamus yang utuh membahas semuanya. namung lengkap dalam artian membahas hal-hal yang penting dan relevan secara mendalam.
+
+Buku ini juga lengkap dalam artian buku ini memiliki soal-soal dan kunci jawaban untuk latihan.
+
 ## Pengkategorian Buku
 
 Buku ini nantinya akan di bagi kedalam beberapa buku. mulai dari pengenalan hingga topik topik yang lebih advanced.
