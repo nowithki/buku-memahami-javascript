@@ -205,7 +205,7 @@ if (sedangHujan) {
 const tinggiTembokDibutuhkan = tinggiAir * 3; // 30
 ```
 
-kita memberi nilai true pada variabel dengan namaa `sedangHujan` dan melakukan pengecekan di baris selanjutnya. karena `sedangHujan` bernilai benar (true), maka baris setelah if dijalankan
+kita memberi nilai true pada variabel dengan namaa `sedangHujan` dan melakukan pengecekan di baris selanjutnya. karena `sedangHujan` bernilai benar (true), maka blok `{ ... }` setelah if dijalankan
 
 ### array
 
