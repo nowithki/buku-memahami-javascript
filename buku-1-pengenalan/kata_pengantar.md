@@ -25,7 +25,7 @@ Selain itu upaya memperkaya referensi dan literasi berbahasa Indonesia adalah ju
 
 ## Untuk Siapa Buku Ini
 
-Target buku ini tidak hanya untuk kamu yang sudah mengenal pemrograman atau bahkan mengenal javascript. buku ini disusun sedapat mungkin dapat diakses bahkan untuk kalangan yang belum mengenal pemrograman namun tetep informatif bagi mereka yang sudah mempunyai pengalaman pemrograman dan ingin belajar javascript. Jika anda sudah mengenal javascript mungkin anda bisa melewati bagian bagian awal dari buku ini
+Target buku ini tidak hanya untuk kamu yang sudah mengenal pemrograman atau bahkan mengenal javascript. buku ini disusun sedapat mungkin dapat diakses bahkan untuk kalangan yang belum mengenal pemrograman namun tetep informatif bagi mereka yang sudah mempunyai pengalaman pemrograman dan ingin belajar javascript. Jika anda sudah mengenal javascript mungkin anda bisa melewati bagian bagian awal dari buku ini. Meskipun buku ini menyasar kepada orang yang awam soal pemrograman, Namun diperlukan kefamiliaran untuk mengoperasikan komputer dan browser.
 
 ## Apa Yang Tidak Dapat Diharapkan di Buku Ini
 
