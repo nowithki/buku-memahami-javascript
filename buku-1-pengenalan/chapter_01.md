@@ -483,3 +483,109 @@ contoh
 !(4 > 5); // true
 !(6 > 5); // false
 ```
+
+### Menggabungkan string dalam javascript.
+
+Operator penambahan (+) dalam javascript ketika digunakan didalam string maka dia akan menggabungkan kedua string tersebut. contoh:
+
+```js
+'1' + '1'; // bernilai 11
+'Aku ' + '&' + ' Kamu'; // Aku & Kamu
+'Hello ' + 'World!'; // Hello World!
+```
+
+## Soal Latihan
+
+Berikut adalah soal-soal latihan yang dapat kamu selesaikan. jika telah selesai kamu bisa mencocokan dengan kunci jawabanya di [sini](/kunci_jawaban/01_01.md)
+
+1. Apakah perbedaan `const` dan `let` dalam pendefinisian variabel ?
+2. Apakah perbedaan `=`, `==`, `===`, dalam javascript ? _\*_
+3. Berapakah nilai terakhir variabel x ?
+
+```js
+let x = 5;
+x = 7;
+```
+
+4. Berapakah nilai terakhir variabel y ?
+
+```js
+const y = 5;
+y = 10;
+```
+
+5. Berapakah nilai terakhir variabel x ? _\*_
+
+```js
+let x = 5;
+x = x + 10;
+```
+
+6. Berapakah nilai terakhir variabel z ? _\*\*_
+
+```js
+let z = 5;
+z = z + 5;
+z++;
+z++;
+z++;
+z--;
+```
+
+7. Tentukan nilai nilai akhir variabel berikut :
+
+```javascript
+const bilangan1 = 10;
+const bilangan2 = 23;
+const bilangan3 = 25;
+const bilangan4 = 29;
+const modulo1 = bilangan1 % 2;
+const modulo2 = bilangan2 % 2;
+const modulo3 = bilangan3 % 10;
+const modulo4 = bilangan4 % 100;
+```
+
+8. Tentukan nilai kebenaran setiiap baris berikus
+
+```javascript
+true && false;
+false || false;
+true || false;
+25 > 25;
+50 >= 50;
+100 > 10 && 5 < 8;
+5 < 6 || 987 > 900;
+5 < 8 || 234 > 214;
+(9 > 4 && 10 > 20) || 5 > 4;
+(23 < 12 && 8 > 4) || 932 < 923;
+```
+
+9. Tentukan nilai akhir variabel teksku
+
+```js
+const teksLain = 'Ada Tambahan Teks Ini ';
+let teksku = 'Ini';
+teksku = teksku + ' Pemrograman';
+teksku = teksku + ' Javascript';
+teksku = teksLain + teksku;
+```
+
+10. tentukan nilai akhir variabel alamat _\*\*_
+
+```js
+const alamat = undefined == null ? 'Sama' : 'Tak Sama';
+```
+
+11. [Bonus] ketika file `ini_file.js` dirubah menjadi berikut, apa yang akan tampil ketika file `index.html` dibuka di browser ? _\*\*\*_
+
+```javascript
+function Hello() {
+  const superMath = 5 ** 5 % 5;
+  const opening = 'Here is some Math';
+  let theFinalText = 'Math ? What Math Exactly ?';
+  if (superMath) {
+    theFinalText = opening + ' And it is really cool';
+  }
+  return theFinalText;
+}
+```

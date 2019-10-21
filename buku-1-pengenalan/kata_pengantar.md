@@ -10,6 +10,8 @@ Pada saat itu javascript umumnya digunakan untuk memprogram interaksi antara pen
 
 Kini bahasa javascript telah berevolusi dan berkembang begitu pesat sehingga penggunaanya tidak hanya untuk membuat sebagian interaksi di web, namun membuat keseluruhan halaman website bahkan sampai dengan backendnya. maka dari itu Javascript juga adalah sebuah bahasa pemrograman yang sangat cocok dipelajari untuk pemula yang ingin belajar tentang javascript karena akan terasa mampu membuat banyak hal dengan hanya mempelajari satu bahasa pemrograman.
 
+Buku ini didesain untuk membahas javascript secara "Lengkap" bukan dalam artian lengkap seperti kamus yang utuh. namung lengkap dalam artian membahas hal-hal yang penting dan relevan secara mendalam.
+
 ## Motivasi Penulisan Buku
 
 Mengapa menulis buku ini ketika sudah banyak buku laain seperti [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS) nya [@getify](https://github.com/getify) ataupun buku [Eloquent Javascript](https://eloquentjavascript.net/) yang dapat di bacaa online secara gratis.
@@ -32,3 +34,10 @@ Target buku ini tidak hanya untuk kamu yang sudah mengenal pemrograman atau bahk
 Meskipun buku ini berniat untuk mengupas javascript secara lengkap dan utuh. Buku ini bermula dari hobby dan bukan dalam rangka untuk menyusun sebuah buku yang dapat diterbitkan dalam bentuk hardcopy dan diterbitkan.
 
 Sehingga mungkin akan ada (atau bahkan banyak) kesalahan dalam penulisan buku ini. Meski demikian, Kamu dapat melakukan koreksi dengan membuat Issue pada halaman Github [Buku Ini](https://github.com/hanipcode/buku-memahami-javascript) atau bahkan membuat Pull Request.
+
+## Soal Latihan
+
+Buku ini memiliki soal-soal latihan di setiap chapter nya yang juga disediakan kunci jawabanya [disini](./kunci_jawaban).
+Untuk kalian yang ambisius dalam belajar disediakan soal dengan tanda bintang (\*) yang menantang penalaran kalian. dalam artian kemungkinan soal itu menanyakan pertanyaan yang baru sekilas disinggung atau secara implisit saja disinggung dalam chapter tersebut.
+
+Jika kamu ingin pengalaman belajar yang maksimal ada baiknya kamu mencoba mengerjakan soal latihan yang tersedia.
