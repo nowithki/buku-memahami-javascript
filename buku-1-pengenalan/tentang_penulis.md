@@ -2,7 +2,7 @@
 
 # Tentang Penulis
 
-Penulis adalah Muhammad Hanif([@hanipcode](https://github.com/hanipcode) di github) yang berdomisili di Jakarta, Indonesia. Penulis bekerja sebagai Frontend Engineer di [Keller William Realty](kw.com).
+Penulis adalah Muhammad Hanif([@hanipcode](https://github.com/hanipcode) di github) yang berdomisili di Jakarta, Indonesia. Penulis bekerja sebagai Frontend Engineer di [Keller William Realty](https://kw.com/kw/).
 Penulis telah menggunakan Javascript sejak 2011 sebagai seorang hobbyist dan memulai karir sebagai Frontend Engineer sejak 2014.
 
 Penulis dapat disapa secaara daring di:
